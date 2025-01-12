@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    color: white;
+    background-color: #001;
+    display: flex;
+}
+.menu {
+    background-color: #123;
+    width: 90px;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+}
+.menu:hover {
+    width: 260px;
+}
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.img-box {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+    flex-shrink: 0;
+}
+.img-box img {
+    width: 100%;
+    height: 100%;
+}
+.menu ul {
+    list-style: none;
+    position: relative;
+    height: 95%;
+}
+.menu ul li .lewel {
+    background-color: #ffffff55;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: 0.3s;
+}
+.menu ul li a:hover {
+    background-color: #ffffff55;
+}
+.log-out {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.log-out a {
+    background-color: #a00;
+}
+ul li a i {
+    font-size: 30px;
+}
+.content {
+    width: 100%;
+    margin: 10px;
+}
+.title-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0181fe;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+.data-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.data-info .box {
+    background-color: #123;
+    height: 150px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+.data-info .box i {
+    font-size: 30px;
+}
+.data-info .box .data span {
+    font-size: 30px;
+}
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0181fe;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+.tableau table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 8px;
+}
+.tableau thead {
+    background-color: #0181fe;
+}
+.tableau td {
+    border-radius: 8px;
+}
+td, th {
+    height: 40px;
+}
+.khder {
+    background-color: green;
+    padding: 5px;
+    border-radius: 8px;
+}
+.sfer {
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 8px;
+    color: black;
+}
